@@ -1,0 +1,45 @@
+.expenseWrapper{
+    max-width: 700px;
+    margin: auto;
+    background-color: lightblue;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.expenseWrapper > button{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.expenseHeader{
+    display: flex;
+    justify-content: space-between;
+    div{
+        font-weight: bolder;
+        width: 20%;
+    }
+}
+.expenseBody{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 20%;
+    }
+    button{
+        cursor: pointer;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}
+.totalExpense{
+    border: 2px solid navy;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    font-weight: bolder;
+}

@@ -1,0 +1,31 @@
+.addExpenseWrapper{
+    max-width: 700px;
+    margin: auto;
+    background-color: lightblue;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.expenseFormContainer{
+   div{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    label{
+        width: 40%;
+    }
+    input{
+        width: 40%;
+    }
+    select{
+        width: 40%;
+    }
+   }
+}
+.addExpenseWrapper > button{
+    margin-top: 1rem;
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
