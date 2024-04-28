@@ -1,0 +1,16 @@
+.chartWrapper {
+  width: 90%;
+  margin: auto;
+  background-color: #ffff;
+  font-size: 1.3rem;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 20px;
+  height: 50vh;
+  box-shadow: 10px 10px 10px rgba(85, 39, 133, 0.3);
+  display: flex;
+  justify-content: space-around;
+}
+.chartWrapper > div {
+  width: 50%;
+}
